@@ -1,6 +1,7 @@
 // src/api.js
 
-const baseURL = 'http://localhost:3001';
+const baseURL = 'https://sportyanalyticsbackend.onrender.com';
+
 
 export async function login(username, password) {
   const res = await fetch(`${baseURL}/login`, {
