@@ -29,7 +29,7 @@ const Login = ({ onLogin }) => {
     <div className="min-h-screen flex flex-col items-center justify-center bg-gray-50 px-4">
       <div className="w-full max-w-md bg-white rounded-lg shadow-lg p-8">
         <h2 className="text-2xl font-bold mb-6 text-center text-gray-800">Login with your sporty details</h2>
-        <p className='text-center text-gray-400 mb-6'>If you don't have one, you don't know what God has done for you.</p>
+        <p className='text-center text-gray-400 mb-6'>This App does not have a database, we do not store your passwords. <br/> <br/> Logging in might be slow, it's a free server.</p>
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
             <label className="block text-gray-700 mb-1" htmlFor="username">Username</label>
